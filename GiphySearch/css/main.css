@@ -1,0 +1,41 @@
+body {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-image: url("../si.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-padding50 {
+    padding-top: 50px;
+}
+
+.container-textinput {
+    width: 80%;
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-button {
+    width: 10%;
+    display: inline-block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.container-image {
+    width: 30%;
+    display: block;
+    float: left;
+    margin-right: 3%;
+}
